@@ -426,9 +426,11 @@ async def highfive(ctx):
 async def loveyou(ctx):
     await ctx.send("❤️")
 
+
 @bot.command()
 async def blessyou(ctx):
     await ctx.send("God's not real, we're all alone out here")
+
 
 def get_day_of_year():
     today_date = date.today()
